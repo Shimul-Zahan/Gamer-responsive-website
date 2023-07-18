@@ -198,6 +198,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     gap: 266px;
+    margin-bottom: 200px;
 }
 .instant-play-desc h1{
     width: 341px;
@@ -224,5 +225,63 @@ nav ul li a{
     position: absolute;
     left: -25%;
     bottom: 10%;
+}
+/* carees part */
+.career-container{
+    width: 1899px;
+    max-height: 800px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    min-height: 400px;
+    padding: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.career-desc{
+    width: 50%;
+}
+.career-image{
+    width: 50%;
+}
+.carrer-heading{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+}
+.career-subtitle{
+    max-width: 680px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.career-flexpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+.career-heading-leftpart{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+}
+.career-heading-rightpart{
+    text-align: right;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+}
+.see-all-btn{
+    width: 275px;
+    height: 65px;
+    border-radius: 48px;
+    background: #FFF;
+    /* padding: 21px 40px; */
+    font-family: Work Sans;
+    font-size: 20px;
+    border: none;
+    color: #F948B2;
+    margin-top: 20px;
 }
 
