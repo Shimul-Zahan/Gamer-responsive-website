@@ -38,10 +38,11 @@ span{
 }
 /* header part */
 .header-container{
-    max-width: 1920px;
+    max-width: 1899px;
     padding: 24px 240px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
 }
 /* navbar */
 nav{
@@ -98,6 +99,8 @@ nav ul li a{
     
 } */
 .banner-desc-container{
+    width: 1899px;
+    margin: 0 auto;
     padding: 19px 240px 0;
     display: flex;
     justify-content: space-between;
@@ -148,6 +151,8 @@ nav ul li a{
 
 /* Online games container */
 .online-games-container{
+    width: 1899px;
+    margin: 0 auto;
     padding: 40px 240px;
     margin-bottom: 140px;
 }
@@ -193,12 +198,13 @@ nav ul li a{
 }
 /* instant play container */
 .instant-play-container{
+    width: 1899px;
+    margin: 0 auto 200px;
     padding: 0 240px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 266px;
-    margin-bottom: 200px;
 }
 .instant-play-desc h1{
     width: 341px;
@@ -229,6 +235,7 @@ nav ul li a{
 /* carees part */
 .career-container{
     width: 1899px;
+    margin: 0 auto;
     max-height: 800px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     min-height: 400px;
@@ -285,3 +292,8 @@ nav ul li a{
     margin-top: 20px;
 }
 
+/* footer part */
+footer{
+    width: 1899px;
+    margin: 0 auto;
+}

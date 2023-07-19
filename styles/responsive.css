@@ -12,6 +12,7 @@
 
     /* banner part */
     .banner-desc-container {
+        width: 100%;
         padding: 0;
         flex-direction: column-reverse;
     }
