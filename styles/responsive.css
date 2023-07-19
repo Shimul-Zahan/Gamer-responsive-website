@@ -126,4 +126,19 @@
         font-size: 1rem;
         margin-bottom: 20px;
     }
+    /* footer part */
+    footer{
+        width: 100%;
+        text-align: center;
+    }
+    .games-type-part,
+    .icon-part,
+    .right-reserve-part{
+        flex-wrap: wrap;
+        width: 85%;
+        justify-content: center;
+    }
+    .copyright-part{
+        max-width: 258px;
+    }
 }

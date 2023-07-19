@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 /* shared style */
-span{
+span-gamer{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -76,6 +76,7 @@ nav ul li a{
 .logo-name{
     font-family: Work Sans;
     font-size: 45px;
+    color: black;
 }
 .follow-us-btn{
     width: 262px;
@@ -296,4 +297,48 @@ nav ul li a{
 footer{
     width: 1899px;
     margin: 0 auto;
+    background: #0B0223;
+    min-height: 636px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-name-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+
+}
+.games-type-part{
+    font-family: Work Sans;
+    font-size: 18px;
+    display: flex;
+    gap: 60px;
+    margin: 66px 0 56px;
+}
+.icon-part{
+    font-family: Work Sans;
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+}
+.right-reserve-part{
+    font-family: Work Sans;
+    font-size: 16px;
+    display: flex;
+    gap: 60px;
+    margin: 64px 0 27px;
+}
+.right-reserve-part span{
+    color: rgba(255, 255, 255, 0.60);
+}
+.copyright-part{
+    font-family: Work Sans;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
 }
